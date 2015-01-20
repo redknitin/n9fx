@@ -55,6 +55,6 @@ Within your source code, add a "require_once 'vendor/autoload.php';" and create 
 * Controller classname must be {Entity}Controller
 * Controller filename must be {Entity}Controller.php
 * Model classname must be {Entity}Model
-* Model filename must (ideally) be model/{Entity}Model.php
-* View filename must be view/{Entity}View_{action}.php
+* Model filename must (ideally) be models/{Entity}Model.php
+* View filename must be views/{Entity}View_{action}.php
 * index, edit, save, delete actions
