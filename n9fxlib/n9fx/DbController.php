@@ -1,6 +1,8 @@
 <?php
 namespace n9fx;
 
+require_once 'config.php';
+
 class DbController extends Controller {
 	public function __construct() {
 		parent::__construct();
@@ -13,11 +15,12 @@ class DbController extends Controller {
 	}
 
 	protected function connect_db() {
-		//@mysql_connect($db_host, $db_user, $db_pass);
-		//mysql_select_db($db_name);
+		global $db;
+		@mysql_connect($db['host'], $db['user'], $db['pass']);
+		mysql_select_db($db['name']);
 	}
 
 	protected function close_db() {
-		//mysql_close();
+		mysql_close();
 	}
 }
