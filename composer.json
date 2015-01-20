@@ -1,0 +1,8 @@
+{
+    "name": "redknitin/n9fx",
+    "autoload": {
+        "psr-0" : {
+            "n9fx" : "n9fxlib"
+        }
+    }
+}
