@@ -1,6 +1,6 @@
 # n9fx
 
-The N9 framework is an light-weight opinionated MVC framework for PHP.
+The N9 framework is a light-weight opinionated MVC framework for PHP.
 
 # Getting Started
 
